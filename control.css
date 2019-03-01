@@ -1,0 +1,45 @@
+#progressImg{
+	width: 20px;
+	height: 20px;
+}
+.imgBox{
+	position: absolute;
+	left: 0;
+	top:0;
+	cursor: pointer;
+}
+.controls{
+	width:360px;
+	margin: 0 auto;
+	position: relative;
+}
+.progressBox{
+	cursor: pointer;
+	background-color: #f9f9f9;
+}
+video{
+	cursor: pointer;
+}
+.barrager{
+	position: absolute;
+	top:0;
+	right: 0;
+	color: red;
+}
+.video{
+	position: relative;
+	margin: 0 auto;
+	width:360px;
+}
+.haveprogress{
+	position: absolute;
+	left: 0;
+	top:0;
+	cursor: pointer;
+}
+.fullscreendiv: -webkit-full-screen {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	background-color: yellow;
+}

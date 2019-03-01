@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Video Demo</title>
+	<script type="text/javascript" src="control.js"></script>
+	<link rel="stylesheet" type="text/css" href="control.css">
+</head>
+<body align="center">
+	<h1>Barrager Demo</h1>
+	<div class="video">
+		<video src="./NIIX6776.MOV" id="player" width="360"></video>
+		<!-- <div class="barrager">dmdmdm</div> -->
+	</div>
+	<div class="controls">
+		<div class="progressBox" id="progressBox_special">
+			<div class="progressBar" width="360"><br></div>
+			<div class="haveprogress"><img src="passed.png" width="0" height="18" id="passed"></div>
+			<div class="imgBox">
+				<img id="progressImg" src="play-circle.png" alt="">
+			</div>
+		</div>
+
+		<button type="button" value="play" id="video-btn">Play</button>
+		<span id="curtime">0</span>/<span id="duration">0</span>
+		<button type="button" value="<>" id="fullscreen">FullScreen</button>
+		<button type="button" value="<>" id="muted">Muted</button>
+		<button type="button" value="false" id="kill">Kill Barrager</button>
+	</div>
+	<div>
+		<span>Barrager:</span>
+		<input type="text" name="danmu">
+		<select name="color">
+			<option>black</option>
+			<option>red</option>
+			<option>green</option>
+			<option>blue</option>
+		</select>
+		<br>
+		<button id="submitbarrager">Emission</button>
+	</div>
+
+	<div style="display: none;" class="fullscreendiv">
+		<button>Play</button>
+		<p>Full Screen</p>
+	</div>
+
+	<script type="text/javascript">
+		window.onload = video.onload;
+	</script>
+</body>
+</html>
