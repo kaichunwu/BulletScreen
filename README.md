@@ -6,4 +6,4 @@ Video Player with Barrages
 * Use Barragers to hold all barrages
 
 ## Demo
-<div align=right><img width = "500px" src = "barrager.png"></div>
+<div align=center><img width = "500px" src = "barrager.png"></div>
