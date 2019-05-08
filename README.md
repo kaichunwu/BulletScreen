@@ -1,8 +1,8 @@
-# Barrage
-Video Player with Barrages
+# Bullet Screen
+Video Player with Bullet Screen
 ## Introduction
 * Use video.currentTime to identify the current time.   
-* The barrage object has text, color and time to make sure where and what the barrage should be.
+* The barrage object has text, color and time to make sure where and what the bullet should be.
 * Use Barragers to hold all barrages
 
 ## [Demo](https://www1.coe.neu.edu/~wukaichun/video/video.html)
